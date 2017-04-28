@@ -23,7 +23,7 @@ def get_img_html(html):
     for link in all_a:
         img_html=get_html(link['href'])
         img_html+=img_html
-        return img_html
+    return img_html
         
 #获取每个图片src地址
 def get_img(html):
